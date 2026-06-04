@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Icy Cup v2</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;color:#1f2937}
+.hero{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:linear-gradient(135deg,#dff6ff,#f8fdff);
+  padding:30px;
+}
+.hero-content{max-width:1100px;display:flex;gap:40px;align-items:center;flex-wrap:wrap}
+.hero img{max-width:420px;width:100%;border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,.15)}
+.text{flex:1;min-width:280px}
+h1{font-size:3rem;margin:0}
+.tag{font-size:1.2rem;color:#2563eb}
+.btn{
+ display:inline-block;margin-top:20px;padding:14px 22px;
+ background:#2563eb;color:white;text-decoration:none;border-radius:10px
+}
+section{max-width:1100px;margin:auto;padding:60px 20px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:#f8fafc;padding:20px;border-radius:16px}
+.contact{background:#eef8ff;border-radius:20px;padding:30px}
+footer{text-align:center;padding:25px;background:#f3f4f6}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="hero-content">
+    <img src="9469C64D-96C4-4110-83F7-7F307E3083B1.jpeg" alt="The Icy Cup">
+    <div class="text">
+      <h1>🧊 The Icy Cup</h1>
+      <p class="tag">Stay Cool • Sip Fresh</p>
+      <p>Цэвэр, чанартай аягатай мөсийг таны хэрэгцээнд зориулан бэлтгэнэ.</p>
+      <a class="btn" href="#contact">Захиалга өгөх</a>
+    </div>
+  </div>
+</div>
+
+<section>
+  <h2>Яагаад The Icy Cup гэж?</h2>
+  <div class="cards">
+    <div class="card"><h3>❄️ Цэвэр үйлдвэрлэл</h3><p>Эрүүл ахуйн шаардлага хангасан бүтээгдэхүүн.</p></div>
+    <div class="card"><h3>🚚 Шуурхай үйлчилгээ</h3><p>Захиалгыг хурдан хүлээн авч үйлчилнэ.</p></div>
+    <div class="card"><h3>🥤 Тохиромжтой савлагаа</h3><p>Аягатай мөс шууд хэрэглэхэд бэлэн.</p></div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact">
+    <h2>Холбоо барих</h2>
+    <p><strong>Утас:</strong> 95678099, 95038528</p>
+    <p><strong>Facebook:</strong> The ICY cup</p>
+  </div>
+</section>
+
+<footer>
+© The Icy Cup
+</footer>
+
+</body>
+</html>
